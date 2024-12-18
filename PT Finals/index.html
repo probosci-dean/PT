@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon Info</title>
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"> -->
+  <link rel="shortcut icon" href="icon/pokeball.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <img src="rotom.png">
+  <h1>Pokémon Info</h1>
+ 
+  <div class="box" id="pokedexContent">
+    <div>
+     <input type="text" id="pokemonSearch" placeholder="Enter Pokémon name or ID">
+     <button id="searchButton">Search Pokémon</button>
+    </div>
+  <button id="fetchRandomButton">Generate Random Pokémon</button>
+
+  <div id="pokemonInfo" class="pokemon-info" style="display: none;">
+    <img id="pokemonSprite" alt="Pokémon Sprite">
+    <p><strong>Name:</strong> <span id="pokemonName"></span></p>
+    <p><strong>Types:</strong> <span id="pokemonTypes"></span></p>
+    <p><strong>Abilities:</strong> <span id="pokemonAbilities"></span></p>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+body {
+  font-family: "Pixelify Sans", sans-serif;
+  /* font-family: Arial, sans-serif; */
+  /* margin: 20px; */
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  background-color: #e84a44;
+}
+#pokedexContent {
+  background-color: white;
+
+
+}
+.pokemon-info {
+  margin-top: 20px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#pokemonName,
+#pokemonTypes,
+#pokemonAbilities {
+  text-transform: uppercase;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+button, input {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+button {
+  cursor: pointer;
+  background-color: #017bc7;
+  color: white;
+}
+button:hover {
+  background-color: #7cd5f9;
+}
+input {
+  border: 1px solid #ccc;
+}
